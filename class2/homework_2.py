@@ -1,8 +1,8 @@
 '''
 1.	請問Python有哪五種形態:
-答案:
+答案:int、None、bool、float、str
 2.	請問使用什麼function可以顯示出形態
-答案:
+答案:type
 3.	請問 a = int('1'), a的形態是什麼
 答案:1sssss
 4.	請問 b = str(1), b的形態是什麼
