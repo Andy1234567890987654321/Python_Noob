@@ -11,4 +11,9 @@ EX:
 輸入錯誤!
 ..
 """
-f = float(input("請輸入華氏溫度:"))
+try:
+    f = float(input("請輸入華氏溫度:"))
+    c = 5/9*(f-32)
+    print(c)
+except:
+    print("請輸入數字")
