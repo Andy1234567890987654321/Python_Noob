@@ -10,17 +10,15 @@
 # turtle.left(applebananaorangegrapepencil)
 # turtle.done()
 
-# import turtle
-# turtle.speed(10)
-
-# for loop in range(4):
-#     turtle.forward(100)
-#     turtle.right(90)
-# turtle.done()
-
-
 import time
 import turtle
+turtle.speed(10)
+
+for loop in range(4):
+    turtle.forward(100)
+    turtle.right(90)
+turtle.done()
+
 
 turtle.speed(0)
 turtle.forward(100)
