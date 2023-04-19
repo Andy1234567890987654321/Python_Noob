@@ -1,11 +1,20 @@
-'''
-# 星形中心為正午邊形，每一個外角為360度/=72度
-# 星形每隻銳角的角度=180度-2*72度=36度
-# turtle.pensize(5)  # 線徑寬度1~10
-# turtle.pencolor("yellow")  # 線的顏色
-# turtle.fillcolor("yellow")  # 區域填滿顏色
-# turtle.begin_fill()  # 填滿區域設定開始
-# turtle.end_fill()  # 填滿區域設定結束
+"""
+請使用turtle模組以及for印出以下圖形
+t0_turtle_stamp.jpg
+提示：
+turtle.home()是讓烏龜回到原點的指令
+"""
 
-在slack尚有第二題的題目
-'''
+"""
+五邊形星星
+"""
+import turtle
+turtle.penup()
+turtle.stamp()
+turtle.right(0)
+for loop in range(8):
+    turtle.forward(50)
+    turtle.stamp()
+    turtle.backward(50)
+    turtle.right(45)
+turtle.done()
