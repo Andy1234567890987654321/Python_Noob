@@ -18,3 +18,8 @@ for loop in range(8):
     turtle.backward(50)
     turtle.right(45)
 turtle.done()
+
+for loop in range(5):
+    turtle.forward(50)
+    turtle.left(145)
+turtle.done()
