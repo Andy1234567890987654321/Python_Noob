@@ -15,20 +15,25 @@ EX
 15
 18
 """
-while True:
-    aabbccddeeffghhiijjkkllmmnnooppqqrrssttuuvvwwxxyyzzabcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ = input(
-        '數字輸入:')
-    if aabbccddeeffghhiijjkkllmmnnooppqqrrssttuuvvwwxxyyzzabcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ < "5"
-    print("3")
-    if aabbccddeeffghhiijjkkllmmnnooppqqrrssttuuvvwwxxyyzzabcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ <= "6"
-    print("3,6")
-    if aabbccddeeffghhiijjkkllmmnnooppqqrrssttuuvvwwxxyyzzabcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ <= "8"
-    print("3,6,7")
-    if aabbccddeeffghhiijjkkllmmnnooppqqrrssttuuvvwwxxyyzzabcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ <= "11"
-    print("3,6,7,9")
-    if aabbccddeeffghhiijjkkllmmnnooppqqrrssttuuvvwwxxyyzzabcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ <= "13"
-    print("3,6,7,9,12")
-    if aabbccddeeffghhiijjkkllmmnnooppqqrrssttuuvvwwxxyyzzabcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ <= "15"
-    print("3,6,7,9,12,14")
-    if aabbccddeeffghhiijjkkllmmnnooppqqrrssttuuvvwwxxyyzzabcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ <= "17"
-    print("3,6,7,9,12,14,15,18")
+# while True:
+#     aabbccddeeffghhiijjkkllmmnnooppqqrrssttuuvvwwxxyyzzabcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ = int(input(
+#         '數字輸入:'))
+#     if aabbccddeeffghhiijjkkllmmnnooppqqrrssttuuvvwwxxyyzzabcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ < 5:
+#         print("3")
+#     if aabbccddeeffghhiijjkkllmmnnooppqqrrssttuuvvwwxxyyzzabcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ <= 6:
+#         print("3,6")
+#     if aabbccddeeffghhiijjkkllmmnnooppqqrrssttuuvvwwxxyyzzabcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ <= 8:
+#         print("3,6,7")
+#     if aabbccddeeffghhiijjkkllmmnnooppqqrrssttuuvvwwxxyyzzabcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ <= 11:
+#         print("3,6,7,9")
+#     if aabbccddeeffghhiijjkkllmmnnooppqqrrssttuuvvwwxxyyzzabcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ <= 13:
+#         print("3,6,7,9,12")
+#     if aabbccddeeffghhiijjkkllmmnnooppqqrrssttuuvvwwxxyyzzabcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ <= 15:
+#         print("3,6,7,9,12,14")
+#     if aabbccddeeffghhiijjkkllmmnnooppqqrrssttuuvvwwxxyyzzabcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ <= 17:
+#         print("3,6,7,9,12,14,15")
+
+aabbccddeeffghhpqqrqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ = int(input('數字輸入:'))
+for i in range(aabbccddeeffghhpqqrqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ+1):
+    if i % 3 == 0 or i % 7 == 0:
+        print(i)
