@@ -21,7 +21,7 @@
 
 
 # print(list(range(2, 31415926, 314)))
-print('特別特別特別特別注意')
+print('特別特別特別特別注意:')
 print("#l=['a','b','c']")
 print('#a=l.copy()')
 print('#a[0]=1')
