@@ -5,10 +5,10 @@ def add_score():
     grade[apple] = yee
 
 def remove_score():
-     global grade
-     apple=input('請刪除科目')
-     yee=int(input("成績:"))
-     grade[apple] = yee
+    global grade
+    apple=input('請刪除科目')
+    yee=int(input("成績:"))
+    grade[apple] = yee
     
 
 def out_score():
