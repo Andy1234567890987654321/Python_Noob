@@ -1,0 +1,20 @@
+import datetime
+
+date = datetime.date.today()
+print(date)
+print(date.year)
+print(date.month)
+print(date.day)
+s = date.strftime('%d %b %B %Y %y %A %a')
+print()
+day = input('what is your birthday?:')
+print(day)
+birth = datetime.datetime.strptime(day, '%m/%d/%Y')
+print(birth.date())
+diff = birth.date() - date
+print(diff)
+time = datetime.datetime.now()
+print(time)
+print(time.hour)
+print(time.minute)
+print(time.second)
